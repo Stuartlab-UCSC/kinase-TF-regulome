@@ -2,6 +2,7 @@
 
 This repository contains the transcription factor and kinase target compendiums used in the hierarchical MARINa analysis of
 
+```
 @article{robertson_integrative_2017,
 	title = {Integrative {Analysis} {Identifies} {Four} {Molecular} and {Clinical} {Subsets} in {Uveal} {Melanoma}},
 	volume = {32},
@@ -19,11 +20,14 @@ This repository contains the transcription factor and kinase target compendiums 
 	keywords = {EIF1AX, GNA11, GNAQ, molecular subtypes, monosomy 3, noncoding RNA, SF3B1, SRSF2, TCGA, uveal melanoma},
 	pages = {204--220.e15},
 }
+```
+
+[PMID:28810145](https://www.ncbi.nlm.nih.gov/pubmed/28810145)
 
 For file derivations, see the Supplementary Methods of Roberston et. al (2017).
 All files are in .listt format - each line begins with a regulator followed by all its targets in a tab-delimited manner.
 
 Files:
-kinase_targets.listt - kinase targets
-tf_targets.listt - TF targets
-tf_targets_filtered_min_15.listt - retains only TFs with >=15 targets from tf_targets.listt. This is the file used for all downstream analysis in Robertson et. al (2017).
+ - `kinase_targets.listt` - kinase targets
+ - `tf_targets.listt` - TF targets
+ - `tf_targets_filtered_min_15.listt` - retains only TFs with >=15 targets from `tf_targets.listt`. This is the file used for all downstream analysis in Robertson et. al (2017).
